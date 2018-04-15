@@ -18,6 +18,18 @@ namespace BannedWords
                 config.BannedWords.Add("noob");
                 config.BannedWords.Add("idiot");
                 config.BannedWords.Add("fuck");
+                config.BannedWords.Add("shit");
+                config.BannedWords.Add("cc");
+                config.BannedWords.Add("cl");
+                config.BannedWords.Add("dit");
+                config.BannedWords.Add("dit me may");
+                config.BannedWords.Add("asshole");
+                config.BannedWords.Add("cunt");
+                config.BannedWords.Add("fuck");
+                config.BannedWords.Add("con cac");
+                config.BannedWords.Add("du ma");
+                config.BannedWords.Add("ditme");
+                config.BannedWords.Add("dit con me may");
 
                 File.WriteAllText(path, JsonConvert.SerializeObject(config, Formatting.Indented));
                 return config;
